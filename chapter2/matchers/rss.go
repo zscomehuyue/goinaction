@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"regexp"
 
-	"github.com/Talaran/goinaction/chapter2/search"
+	"../search"
 )
 
 type (

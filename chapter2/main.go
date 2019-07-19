@@ -4,8 +4,9 @@ import (
 	"log"
 	"os"
 
-	_ "github.com/Talaran/goinaction/chapter2/matchers"
-	"github.com/Talaran/goinaction/chapter2/search"
+	_ "./matchers"
+	"./search"
+	//"github.com/Talaran/goinaction/chapter2/search"
 )
 
 // init is called prior to main.
@@ -16,6 +17,8 @@ func init() {
 
 // main is the entry point for the program.
 func main() {
+
+	//test 
 	// Perform the search for the specified term.
 	search.Run("president")
 }
